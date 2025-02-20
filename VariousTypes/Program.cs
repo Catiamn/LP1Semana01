@@ -19,6 +19,11 @@ namespace VariousTypes
             float decimals2 = 7.14f;
             float decimals3 = 11.7f;
             Console.WriteLine($"{decimals} \n{decimals2} \n{decimals3}");
+            bool falso = false;
+            bool verdadeiro = true;
+            bool false_values = 7 > 10;
+            bool true_values = 4 < 8;
+            Console.WriteLine($"{falso} \n{verdadeiro} \n{false_values} \n {true_values}");
         }
     }
 }
