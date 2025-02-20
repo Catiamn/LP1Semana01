@@ -8,11 +8,12 @@ namespace AskForInput
         {
             Console.WriteLine("Please write a number:");
             string inteiro = Console.ReadLine();
-            Console.WriteLine("Please write a real number now:");
+            Console.WriteLine("Please write another number now:");
             string real = Console.ReadLine();
-            converte_number = int.Parse( inteiro );
-            converte_realnumber = int.Parse( real );
-
+            int converte_number = int.Parse( inteiro );
+            float converte_realnumber = float.Parse( real );
+            float result = converte_number + converte_realnumber;
+            Console.WriteLine($"Together they equal: {result}");
         }
     }
 }
