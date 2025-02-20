@@ -15,6 +15,10 @@ namespace VariousTypes
             char heart = '♥';
             char sun = '☀';
             Console.WriteLine($"{diamond} \n{heart} \n{sun}");
+            float decimals = 3.4f;
+            float decimals2 = 7.14f;
+            float decimals3 = 11.7f;
+            Console.WriteLine($"{decimals} \n{decimals2} \n{decimals3}");
         }
     }
 }
