@@ -14,20 +14,20 @@ namespace Percentagem
             ///Change number given to float type and to percentage followed by two decimals
             string one = Console.ReadLine(); 
             float realone = float.Parse( one );
-            string numberone = $"{realone:p2}";
+            string numberone = $"{realone:7:p2}";
             Console.WriteLine();
             ///Repeat the process of the first number to the other three numbers necessary
             string two = Console.ReadLine();
             float realtwo = float.Parse( two );
-            string numbertwo = $"{realtwo:p2}";
+            string numbertwo = $"{realtwo:7:p2}";
             Console.WriteLine();
             string three = Console.ReadLine();
             float realthree = float.Parse( three );
-            string numberthree = $"{realthree:p2}";
+            string numberthree = $"{realthree:7:p2}";
             Console.WriteLine();
             string four = Console.ReadLine();
             float realfour = float.Parse( four );
-            string numberfour = $"{realfour:p2}";
+            string numberfour = $"{realfour:7:p2}";
             ///Give the user the 4 numbers at the start but in percentage and with two decimals
             Console.WriteLine($"{numberone} \n{numbertwo} \n{numberthree} \n{numberfour}");
         }
